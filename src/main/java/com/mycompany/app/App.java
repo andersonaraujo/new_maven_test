@@ -17,6 +17,8 @@ public class App {
     public void anotherVeryUsefulBusinessMethod(String whatToDo){
         if ("work hard".equals(whatToDo)) {
             System.out.println("Working hard now");
+        } else if ("not so hard".equals(whatToDo)){
+            System.out.println("Working not so hard now");
         } else {
             System.out.println("I will not " + whatToDo);
         }
